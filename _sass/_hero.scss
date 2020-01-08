@@ -1,0 +1,28 @@
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 0;
+	}
+
+	&__logo {
+		width: 200px;
+
+		@media(min-width: 800px) {
+			width: 250px;
+		}
+
+		@media(min-width: 1200px) {
+			width: auto;
+		}
+	}
+
+	&__description {
+		font-size: 1.1rem;
+		font-style: italic;
+		color: #656464;
+	}
+}

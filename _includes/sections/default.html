@@ -5,10 +5,6 @@
   ),{% endif %} {% if section.bg_image != nil %}url('{{ section.bg_image }}') center center fixed; background-size: cover;{% endif %}"
 {% endcapture %}
 <section id="{{ section.title | slugify }}" class="content-section"{{ bg-image-style }}>
-  <div class="row">
-    <div class="col-md-12">
-      <h1>{{ section.title }}</h1>
-      {{ section.content }}
-    </div>
-  </div>
+	<h2>{{ section.title }}</h2>
+	{{ section.content }}
 </section>
