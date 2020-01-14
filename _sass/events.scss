@@ -1,0 +1,59 @@
+
+$border-colour: #cecece;
+$item-padding: 10px;
+$light-text: #5b5b5b;
+
+.event {
+	&__upcoming {
+		border: 1px solid $border-colour;
+		padding: 5px 0 0;
+		border-radius: 5px;
+
+		&__title {
+			margin: 10px;
+			font-size: 1.3rem;
+		}
+	}
+
+
+	&__item {
+		border-top: 1px solid $border-colour;
+		padding: 5px;
+		display: flex;
+	}
+
+	&__date {
+		display: flex;
+		flex-direction: column;
+		padding: $item-padding;
+		align-items: center;
+		justify-content: center;
+
+		&__day {
+			font-size: 1.8rem;
+			font-weight: bold;
+		}
+
+		&__month {
+			color: $light-text;
+			font-size: 1.2rem;
+		}
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		padding: $item-padding;
+	}
+
+	&__title {
+		font-size: 1.5rem;
+		font-weight: normal;
+		margin: 0;
+	}
+
+	&__time {
+			color: $light-text;
+			font-size: 1.1rem;
+	}
+}

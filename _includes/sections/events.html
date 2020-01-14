@@ -1,0 +1,23 @@
+{% capture bg-image-style %}
+ style="background:{% if section.bg-opaque-overlay != nil %} linear-gradient(
+    {{ section.bg-opaque-overlay }},
+    {{ section.bg-opaque-overlay }}
+  ),{% endif %} {% if section.bg_image != nil %}url('{{ section.bg_image }}') center center fixed; background-size: cover;{% endif %}"
+{% endcapture %}
+<section id="{{ section.title | slugify }}" class="content-section"{{ bg-image-style }}>
+	<h2>{{ section.title }}</h2>
+	{{ section.content }}
+
+	{% assign events = site.events | sort: 'order' %}
+	<article class="event__upcoming">
+		<h3 class="event__upcoming__title">Upcoming Events</h3>
+		{% for event in events %}
+			{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+			{% capture posttime %}{{event.date | date: '%s'}}{% endcapture %}
+			{% if posttime > nowunix %}
+				{% include sections/event-item.html %}
+			{% endif %}
+		{% endfor %}
+	</div>
+
+</section>
