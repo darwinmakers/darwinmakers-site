@@ -3,7 +3,8 @@ $border-colour: #cecece;
 $item-padding: 10px;
 $light-text: #5b5b5b;
 
-.event {
+// Event Item
+.event-item {
 	&__upcoming {
 		border: 1px solid $border-colour;
 		padding: 5px 0 0;
@@ -55,5 +56,67 @@ $light-text: #5b5b5b;
 	&__time {
 			color: $light-text;
 			font-size: 1.1rem;
+	}
+}
+
+
+// Event page
+.event {
+
+	&__details {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding-top: 10px;
+		margin-bottom: 15px;
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+
+		@media(min-width: 1000px) {
+			flex-direction: row;
+			padding-bottom: 10px;
+		}
+	}
+
+	&__date {
+		font-size: 1.2em;
+		display: flex;
+		flex-direction: column;
+		padding-left: 50px;
+		background-image: url(/assets/time.svg);
+		background-size: 40px;
+		background-repeat: no-repeat;
+		background-position: left center;
+
+
+		&__day {
+			font-size: 1.1rem;
+		}
+		&__time {
+			font-size: 0.9rem;
+			color: #4f4f4f;
+		}
+	}
+
+	&__location {
+		padding-left: 50px;
+		background-image: url(/assets/location.svg);
+		background-size: 40px;
+		background-repeat: no-repeat;
+		background-position: left center;
+
+		a {
+		font-size: 1.2em;
+			display: flex;
+			flex-direction: column;
+		}
+
+		&__title {
+			font-size: 1.1rem;
+		}
+		&__address {
+			font-size: 0.9rem;
+			color: #4f4f4f;
+		}
 	}
 }

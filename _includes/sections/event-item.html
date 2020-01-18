@@ -1,13 +1,13 @@
-<article class="event__item">
-	<div class="event__date">
-		<span class="event__date__day">{{event.date | date: "%d"}}</span>
-		<span class="event__date__month">{{event.date | date: "%b"}}</span>
+<article class="event-item__item">
+	<div class="event-item__date">
+		<span class="event-item__date__day">{{event.date | date: "%d"}}</span>
+		<span class="event-item__date__month">{{event.date | date: "%b"}}</span>
 	</div>
-	<div class="event__content">
+	<div class="event-item__content">
 		<a href="{{event.url}}">
-			<h4 class="event__title">{{event.title}}</h4>
+			<h4 class="event-item__title">{{event.title}}</h4>
 		</a>
-		<div class="event__time">{{event.date | date: "%H:%M"}}</div>
+		<div class="event-item__time">{{event.date | date: "%H:%M"}}</div>
 	</div>
 	
 </article>

@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<article class="event">
+
+  <header class="event_header">
+    <h1 class="event_title">{{ page.title | escape }}</h1>
+    <div class="event__details">
+      <time class="event__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+				<span class="event__date__day">{{page.date | date: "%A, %e, %B, %Y"}}</span>
+				<span class="event__date__time">{{page.date | date: "%I:%M%p"}}</span>
+      </time>
+			<div class="event__location">
+				<a href="{{page.location.url}}">
+					<span class="event__location__title">{{page.location.title}}</span>
+					<span class="event__location__address">{{page.location.address}}</span>
+				</a>
+			</div>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}</p>
+		</div>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
