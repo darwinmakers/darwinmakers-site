@@ -24,14 +24,27 @@ description: >- # this means to ignore newlines until "baseurl:"
   Building things in the top end
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Australia/Darwin
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+future: true
+
 collections:
-  - sections
+  sections:
+    output: false
+  events:
+      output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "events"
+    values:
+      layout: "event"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
