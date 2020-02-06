@@ -1,6 +1,6 @@
 ---
 title: 'Hosting a Jekyll site on Github Pages'
-date: '2020-02-14 17:30:00 +0930'
+date: '2020-02-12 17:30:00 +0930'
 categories: web
 location:
   title: Lucky Bat Cafe & Pizzeria
