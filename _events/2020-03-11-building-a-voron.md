@@ -13,3 +13,4 @@ This is a large, fully-enclosed, moving gantry 3D printer with performance match
 Mat will discuss performance aspects of 3D printing and relevant properties of the Voron design.
 He'll also describe the experience of sourcing hundreds of parts from several different countries, war stories from the build process, and recent modifications in pursuit of 3D printing perfection.
 
+![voron](/assets/events/voron.jpg "The Mother of all Printers")
