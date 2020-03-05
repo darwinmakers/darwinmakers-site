@@ -11,7 +11,7 @@ ORGANIZER;CN="Darwin Makers":MAILTO:contact@darwinmakers.org
 LOCATION:{{event.location.title}}
 URL:http://darwinmakers.org{{site.baseurl}}{{event.url}}
 SUMMARY:{{ event.title }}
-DESCRIPTION:{{event.excerpt | newline_to_br | replace: '<br />', '\n' | strip_html | strip |  truncatewords: 30 }}
+DESCRIPTION:{{event.excerpt | newline_to_br | replace: '<br />', '\n' | strip_html | strip |  truncate: 60 }}
 CLASS:PUBLIC
 DTSTART:{{ event.date | date: "%Y%m%d" }}T170000Z
 DTEND:{{ event.date | date: "%Y%m%d" }}T190000Z
