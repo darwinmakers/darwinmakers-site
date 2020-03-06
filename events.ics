@@ -12,7 +12,7 @@ X-LIC-LOCATION:{{site.timezone}}
 BEGIN:STANDARD
 TZOFFSETFROM:{{ site.time | date: "%z" }}
 TZOFFSETTO:{{ site.time | date: "%z" }}
-TZNAME:{{ site.time | date: "%Z"}
+TZNAME:{{ site.time | date: "%Z" }}
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
