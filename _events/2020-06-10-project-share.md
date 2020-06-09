@@ -1,6 +1,6 @@
 ---
 title: 'Project Sharing'
-date: '2020-03-11 17:30:00 +0930'
+date: '2020-06-10 17:30:00 +0930'
 categories: [socal, 'projects']
 location:
   title: Lucky Bat Cafe & Pizzeria
