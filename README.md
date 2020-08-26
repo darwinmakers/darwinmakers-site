@@ -125,3 +125,5 @@ Configuration file: /home/jtuckey/g/darwinmakers-site/_config.yml
 [2020-05-16 10:27:43] ERROR `/favicon.ico' not found.
 ```
 
+# Adding upcoming events
+Upcoming events are created in the \_events directory. Past events will only be excluded when the site is rebuilt but an empty commit should be sufficent to trigger this process.
