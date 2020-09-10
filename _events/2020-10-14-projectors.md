@@ -1,6 +1,6 @@
 ---
 title: 'Creating an immersive panoramic environment'
-date: '2020-09-09 17:30:00 +0930'
+date: '2020-10-14 17:30:00 +0930'
 categories: [multimedia, projection]
 location:
   title: Lucky Bat Cafe & Pizzeria
