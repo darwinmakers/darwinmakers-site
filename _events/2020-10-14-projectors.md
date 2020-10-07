@@ -7,4 +7,11 @@ location:
   url: https://g.page/luckybatcafe?share
   address: 3/7 Pavonia Pl, Nightcliff NT 0810
 ---
-Justin has recently setup four interlinked projectors to create an immersive panoraphic envirionment at Lucky Bat. He will demonstrate the system and talk about the setup and configuration.
+
+Artists, Nerds, Diletantes,
+
+Lucky bat has installed an immersive projection environment behind the stage area.
+
+4 projectors stitched together to create a 6500 by 1000 canvas
+
+Come and hear a technical description of how it works and the types of content we’re aiming at curating and attracting
