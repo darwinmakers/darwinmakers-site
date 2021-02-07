@@ -1,6 +1,6 @@
 ---
 title: 'Open Hardware Showcase'
-date: '2021-01-10 17:30:00 +0930'
+date: '2021-02-10 17:30:00 +0930'
 categories: [hardware, open-source, mycroft, librem]
 location:
   title: Lucky Bat Cafe & Pizzeria
