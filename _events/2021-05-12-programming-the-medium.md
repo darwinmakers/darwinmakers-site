@@ -1,6 +1,6 @@
 ---
 title: 'Programming in the Medium'
-date: '2021-04-12 17:30:00 +0930'
+date: '2021-05-12 17:30:00 +0930'
 categories: [programming]
 location:
   title: Lucky Bat Cafe & Pizzeria
