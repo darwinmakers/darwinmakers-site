@@ -1,0 +1,11 @@
+---
+title: 'Feedback and the REPL'
+date: '2021-08-11 17:30:00 +0930'
+categories: [software, programming]
+location:
+  title: Lucky Bat Cafe & Pizzeria
+  url: https://g.page/luckybatcafe?share
+  address: 3/7 Pavonia Pl, Nightcliff NT 0810
+---
+James presents a short history of feedback loops in programming. He then demonstrates how
+we can make better use of the REPL to be happier and more productive.
